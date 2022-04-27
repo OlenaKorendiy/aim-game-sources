@@ -66,7 +66,7 @@ function setTime(value) {
 function finishGame() {
     timeEl.parentNode.classList.add('hide');
     const restartBtn = document.createElement('a');
-    restartBtn.innerHTML = `<a href="#" class="restart" id="restart">Играть снова</a>`;
+    restartBtn.innerHTML = `<a href="#" class="restart" id="restart">Play again</a>`;
     board.innerHTML = `
     <h1>
         Счет: <span class="primary">${score}</span>
